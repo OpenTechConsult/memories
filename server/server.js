@@ -3,7 +3,11 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import mongoose from 'mongoose';
 
+import postsRoutes from './routes/posts.js';
+
 const app = express();
+
+app.use('/posts', postsRoutes);
 
 
 // Middlewares setup
