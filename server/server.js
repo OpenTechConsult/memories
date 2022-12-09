@@ -3,7 +3,7 @@ import bodyParser from 'body-parser'
 import mongoose from 'mongoose'
 import cors from 'cors'
 
-import postsRoutes from './routes/posts.js'
+import postsRoutes from './routes/posts.router.js'
 
 const app = express()
 
